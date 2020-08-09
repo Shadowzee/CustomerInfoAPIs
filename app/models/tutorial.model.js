@@ -3,9 +3,10 @@ module.exports = mongoose => {
       "tutorial",
       mongoose.Schema(
         {
-          title: String,
-          description: String,
-          published: Boolean
+          name: String,
+          email: String,
+          phoneno: String,
+          city:String
         },
         { timestamps: true }
       )
